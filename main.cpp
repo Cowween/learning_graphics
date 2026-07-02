@@ -51,6 +51,8 @@ std::pair<int, int> project(vec3 v, vec3 x_axis, vec3 y_axis) {
 
 }
 
+
+
 int main(int argc, char** argv) {
 
     TGAImage framebuffer(width, height, TGAImage::RGB);

@@ -1,9 +1,9 @@
-﻿  main.cpp
-C:\Users\lolig\source\repos\graphics_learning\graphics_learning\main.cpp(34,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-C:\Users\lolig\source\repos\graphics_learning\graphics_learning\main.cpp(42,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\lolig\source\repos\graphics_learning\graphics_learning\main.cpp(42,76): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-C:\Users\lolig\source\repos\graphics_learning\graphics_learning\main.cpp(44,66): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-C:\Users\lolig\source\repos\graphics_learning\graphics_learning\main.cpp(46,66): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+﻿  triangle.cpp
+C:\Users\lolig\source\repos\graphics_learning\graphics_learning\triangle.cpp(34,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\lolig\source\repos\graphics_learning\graphics_learning\triangle.cpp(42,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\lolig\source\repos\graphics_learning\graphics_learning\triangle.cpp(42,76): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\lolig\source\repos\graphics_learning\graphics_learning\triangle.cpp(44,66): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lolig\source\repos\graphics_learning\graphics_learning\triangle.cpp(46,66): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(249,16): warning C4244: 'initializing': conversion from '_Ty' to '_Ty1', possible loss of data
           with
           [
@@ -13,8 +13,8 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
           [
               _Ty1=int
           ]
-C:\Users\lolig\source\repos\graphics_learning\graphics_learning\main.cpp(49): message : see reference to function template instantiation 'std::pair<int,int>::pair<float,float,0>(std::pair<float,float> &&) noexcept' being compiled
-C:\Users\lolig\source\repos\graphics_learning\graphics_learning\main.cpp(49): message : see reference to function template instantiation 'std::pair<int,int>::pair<float,float,0>(std::pair<float,float> &&) noexcept' being compiled
+C:\Users\lolig\source\repos\graphics_learning\graphics_learning\triangle.cpp(49): message : see reference to function template instantiation 'std::pair<int,int>::pair<float,float,0>(std::pair<float,float> &&) noexcept' being compiled
+C:\Users\lolig\source\repos\graphics_learning\graphics_learning\triangle.cpp(49): message : see reference to function template instantiation 'std::pair<int,int>::pair<float,float,0>(std::pair<float,float> &&) noexcept' being compiled
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(249,61): warning C4244: 'initializing': conversion from '_Ty' to '_Ty2', possible loss of data
           with
           [
@@ -24,4 +24,7 @@ C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.2
           [
               _Ty2=int
           ]
-  graphics_learning.vcxproj -> C:\Users\lolig\source\repos\graphics_learning\x64\Debug\graphics_learning.exe
+triangle.obj : error LNK2005: "void __cdecl line(int,int,int,int,struct TGAImage &,struct TGAColor)" (?line@@YAXHHHHAEAUTGAImage@@UTGAColor@@@Z) already defined in main.obj
+triangle.obj : error LNK2005: "struct std::pair<int,int> __cdecl project(struct vec<3>,struct vec<3>,struct vec<3>)" (?project@@YA?AU?$pair@HH@std@@U?$vec@$02@@00@Z) already defined in main.obj
+triangle.obj : error LNK2005: main already defined in main.obj
+C:\Users\lolig\source\repos\graphics_learning\x64\Debug\graphics_learning.exe : fatal error LNK1169: one or more multiply defined symbols found
