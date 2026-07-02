@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\lolig\source\repos\graphics_learning\graphics_learning\main.cpp(52,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Source.cpp
+  tgaimage.cpp
+  Generating Code...
+diablo3_pose.obj : fatal error LNK1107: invalid or corrupt file: cannot read at 0x68526

@@ -1,0 +1,27 @@
+﻿  main.cpp
+C:\Users\lolig\source\repos\graphics_learning\graphics_learning\main.cpp(34,15): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\lolig\source\repos\graphics_learning\graphics_learning\main.cpp(42,23): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\lolig\source\repos\graphics_learning\graphics_learning\main.cpp(42,76): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\lolig\source\repos\graphics_learning\graphics_learning\main.cpp(44,66): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\lolig\source\repos\graphics_learning\graphics_learning\main.cpp(46,66): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(249,16): warning C4244: 'initializing': conversion from '_Ty' to '_Ty1', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+          and
+          [
+              _Ty1=int
+          ]
+C:\Users\lolig\source\repos\graphics_learning\graphics_learning\main.cpp(49): message : see reference to function template instantiation 'std::pair<int,int>::pair<float,float,0>(std::pair<float,float> &&) noexcept' being compiled
+C:\Users\lolig\source\repos\graphics_learning\graphics_learning\main.cpp(49): message : see reference to function template instantiation 'std::pair<int,int>::pair<float,float,0>(std::pair<float,float> &&) noexcept' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\utility(249,61): warning C4244: 'initializing': conversion from '_Ty' to '_Ty2', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+          and
+          [
+              _Ty2=int
+          ]
+  graphics_learning.vcxproj -> C:\Users\lolig\source\repos\graphics_learning\x64\Debug\graphics_learning.exe
